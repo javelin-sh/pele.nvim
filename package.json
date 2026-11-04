@@ -1,0 +1,25 @@
+{
+  "name": "pele.nvim",
+  "version": "1.0.0",
+  "description": "Inline Mermaid previews for Neovim powered by Pele",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs && nvim --headless -u NONE -l tests/plugin.lua && nvim --headless -u NONE -l tests/padding.lua"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "pele": "^1.13.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javelin-sh/pele.nvim.git"
+  },
+  "homepage": "https://github.com/javelin-sh/pele.nvim#readme",
+  "bugs": {
+    "url": "https://github.com/javelin-sh/pele.nvim/issues"
+  }
+}
